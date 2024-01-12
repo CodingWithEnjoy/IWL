@@ -4,7 +4,7 @@ import urllib.request
 import os
 import colorfan as cf
 
-openai.api_key = "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"
+openai.api_key = ""
 
 msgs = [{"role": "system",
          "content": "You most only give user a json array whose information is as follows: member 'name' with the value of the real name of a library with the name of the user input, member 'dev' with the value of the developer of that library, member 'download' with the value of an array containing the cdn addresses of that library and member 'save' with the value of an array that The appropriate address to store each member ( scripts in .iwl/js and styles in .iwl/css) is in the 'download' member on the host and the 'useby' member contains an array where each member is an html tag to access the 'save' files; you most only give user a json array without any explanition"}]
